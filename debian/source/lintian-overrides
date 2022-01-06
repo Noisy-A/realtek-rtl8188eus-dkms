@@ -1,0 +1,2 @@
+#we export the variable provided by /usr/share/dpkg/pkg-info.mk
+realtek-rtl8188eus-dkms source: dh-exec-subst-unknown-variable debian/realtek-rtl8188eus-dkms.install DEB_VERSION_UPSTREAM

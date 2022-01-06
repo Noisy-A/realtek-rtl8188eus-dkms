@@ -1,0 +1,20 @@
+From: Sophie Brun <sophie@offensive-security.com>
+Date: Fri, 10 Jul 2020 08:49:31 +0200
+Subject: Change dkms version
+
+Forwarded: not-needed
+---
+ dkms.conf | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/dkms.conf b/dkms.conf
+index 1c14127..bc56f1e 100644
+--- a/dkms.conf
++++ b/dkms.conf
+@@ -1,5 +1,5 @@
+ PACKAGE_NAME="realtek-rtl8188eus"
+-PACKAGE_VERSION="5.3.9~20200316"
++PACKAGE_VERSION="5.3.9~git20210504.6146193"
+ CLEAN="'make' clean"
+ BUILT_MODULE_NAME[0]=8188eu
+ PROCS_NUM=`nproc`
